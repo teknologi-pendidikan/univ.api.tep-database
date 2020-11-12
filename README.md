@@ -1,2 +1,2 @@
-# universitas.api.tep
-API yang menyediakan daftar Perguruan Tinggi di Indonesia beserta laman penting universitas.
+# Universitas API
+Universitas API adalah sebuah API yang menyediakan daftar Perguruan Tinggi di seluruh Indonesia.
