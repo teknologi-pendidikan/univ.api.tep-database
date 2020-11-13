@@ -1,0 +1,12 @@
+[
+    {
+        "nama": "NAMA_UNIVERSITAS",
+        "domain": "DOMAIN_UNIVERSITAS",
+        "provinsi": "PROVINSI_UNIVERSITAS",
+        "kota": "KOTA_UNIVERSITAS",
+        "situs_web": "SITUS_WEB_UNIVERSITAS",
+        "situs_web_spmb": "SITUS_WEB_SPMB",
+        "email": "ALAMAT_EMAIL",
+        "tipe": "JENIS_PERGURUAN_TINGGI"
+    }
+]
