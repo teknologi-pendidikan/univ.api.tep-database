@@ -21,4 +21,4 @@ jobs:
     
     - name: Install Validation Dependencies
       working-directory: ${{env.working-directory}}
-      run: pip install -r .\requirements.txt
+      run: pip install -r requirements.txt
