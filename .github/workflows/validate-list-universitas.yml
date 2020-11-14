@@ -22,3 +22,7 @@ jobs:
     - name: Install Validation Dependencies
       working-directory: ${{env.working-directory}}
       run: pip install -r requirements.txt
+    
+    - name: Validating JSON Schema
+      working-directory: ${{env.working-directory}}
+      run: python main.py
