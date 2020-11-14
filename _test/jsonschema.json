@@ -1,0 +1,136 @@
+{
+  "$id": "https://univ.tep.my.id/list_universitas.json",
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "default": {},
+  "description": "The root schema comprises the entire JSON document.",
+  "examples": [
+    {
+      "kodePT": 1033,
+      "nama": "UNIVERSITAS NEGERI MALANG",
+      "statusPT": "AKTIF",
+      "tipe": "UNIVERSITAS",
+      "domain": "um.ac.id",
+      "situsWeb": "https://um.ac.id",
+      "situsWebSPMB": "https://seleksi.um.ac.id",
+      "email": "rektorat@um.ac.id",
+      "provinsi": "JAWA TIMUR",
+      "kota": "KOTA MALANG",
+      "Alamat": "JALAN SEMARANG 5 MALANG",
+      "KodePos": 65145
+    }
+  ],
+  "required": [
+    "kodePT",
+    "nama",
+    "statusPT",
+    "tipe",
+    "domain",
+    "situsWeb",
+    "email",
+    "provinsi",
+    "KodePos"
+  ],
+  "title": "Skema JSON Data Perguruan Tinggi",
+  "type": "object",
+  "properties": {
+    "kodePT": {
+      "$id": "#/properties/kodePT",
+      "default": 100000,
+      "description": "Kode Perguruan Tinggi yang terdaftar pada PPDIKTI",
+      "examples": [1033],
+      "maxLength": 6,
+      "minLength": 4,
+      "title": "Skema Kode PT Perguruan Tinggi",
+      "uniqueItems": true,
+      "type": "number"
+    },
+    "nama": {
+      "$id": "#/properties/nama",
+      "default": "",
+      "description": "Nama Perguruan Tinggi tanpa Disingkat",
+      "examples": ["UNIVERSITAS NEGERI MALANG"],
+      "title": "Skema Nama PT",
+      "type": "string"
+    },
+    "statusPT": {
+      "$id": "#/properties/statusPT",
+      "default": "",
+      "description": "Status Perguruan Tinggi Saat Ini",
+      "examples": ["AKTIF"],
+      "title": "Skema Status PT",
+      "type": "string"
+    },
+    "tipe": {
+      "$id": "#/properties/tipe",
+      "default": "",
+      "description": "Tipe Perguruan Tinggi",
+      "examples": ["UNIVERSITAS"],
+      "title": "Skema Tipe PT",
+      "type": "string"
+    },
+    "domain": {
+      "$id": "#/properties/domain",
+      "default": "",
+      "description": "Domain Web Resmi Perguruan Tinggi",
+      "examples": ["um.ac.id"],
+      "title": "Skema Domain PT",
+      "type": "string"
+    },
+    "situsWeb": {
+      "$id": "#/properties/situsWeb",
+      "default": "",
+      "description": "Situs web resmi perguruan tinggi",
+      "examples": ["https://um.ac.id"],
+      "title": "Skema Situs web PT",
+      "type": "string"
+    },
+    "situsWebSPMB": {
+      "$id": "#/properties/situsWebSPMB",
+      "default": "",
+      "description": "Laman resmi seleksi masuk perguruan tinggi",
+      "examples": ["https://seleksi.um.ac.id"],
+      "title": "Skema Situs SPMB PT",
+      "type": "string"
+    },
+    "email": {
+      "$id": "#/properties/email",
+      "default": "",
+      "description": "Email resmi PT yang terdaftar pada PPDIKTI",
+      "examples": ["rektorat@um.ac.id"],
+      "title": "The email schema",
+      "type": "string"
+    },
+    "provinsi": {
+      "$id": "#/properties/provinsi",
+      "default": "",
+      "description": "Sudah Jelas",
+      "examples": ["JAWA TIMUR"],
+      "title": "The provinsi schema",
+      "type": "string"
+    },
+    "kota": {
+      "$id": "#/properties/kota",
+      "default": "",
+      "description": "Sudah Jelas",
+      "examples": ["KOTA MALANG"],
+      "title": "The kota schema",
+      "type": "string"
+    },
+    "Alamat": {
+      "$id": "#/properties/Alamat",
+      "default": "",
+      "description": "Sudah Jelas",
+      "examples": ["JALAN SEMARANG 5 MALANG"],
+      "title": "The Alamat schema",
+      "type": "string"
+    },
+    "KodePos": {
+      "$id": "#/properties/KodePos",
+      "default": 0,
+      "description": "Sudah Jelas",
+      "examples": [65145],
+      "title": "The KodePos schema",
+      "type": "number"
+    }
+  }
+}
