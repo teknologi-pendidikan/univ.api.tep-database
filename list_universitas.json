@@ -1,12 +1,32 @@
-[
+{
+  "ipdated": "Sun Nov 15 2020 04:13:28 GMT+0700 (Western Indonesia Time)",
+  "daftarPT": [
     {
-        "nama": "NAMA_UNIVERSITAS",
-        "domain": "DOMAIN_UNIVERSITAS",
-        "provinsi": "PROVINSI_UNIVERSITAS",
-        "kota": "KOTA_UNIVERSITAS",
-        "situs_web": "SITUS_WEB_UNIVERSITAS",
-        "situs_web_spmb": "SITUS_WEB_SPMB",
-        "email": "ALAMAT_EMAIL",
-        "tipe": "JENIS_PERGURUAN_TINGGI"
+      "kodePT": 1033,
+      "nama": "UNIVERSITAS NEGERI MALANG",
+      "statusPT": "AKTIF",
+      "tipe": "UNIVERSITAS",
+      "domain": "um.ac.id",
+      "situsWeb": "https://um.ac.id",
+      "situsWebSPMB": "https://seleksi.um.ac.id",
+      "email": "rektorat@um.ac.id",
+      "provinsi": "JAWA TIMUR",
+      "kota": "KOTA MALANG",
+      "Alamat": "JALAN SEMARANG 5 MALANG",
+      "KodePos": 65145
+    },
+    {
+      "kodePT": 1019,
+      "nama": "UNIVERSITAS BRAWIJAYA",
+      "statusPT": "AKTIF",
+      "tipe": "UNIVERSITAS",
+      "domain": "ub.ac.id",
+      "situsWeb": "https://ub.ac.id",
+      "email": "rektorat@ub.ac.id",
+      "provinsi": "JAWA TIMUR",
+      "kota": "KOTA MALANG",
+      "Alamat": "JALAN VETERAN",
+      "KodePos": 65145
     }
-]
+  ]
+}
