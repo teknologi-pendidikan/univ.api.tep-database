@@ -1,5 +1,13 @@
 {
-  "ipdated": "Sun Nov 15 2020 04:13:28 GMT+0700 (Western Indonesia Time)",
+  "lastUpdate": "Sun Nov 15 2020 04:13:28 GMT+0700 (Western Indonesia Time)",
+  "trustedSource": [
+    "https://pddikti.kemdikbud.go.id/",
+    "https://forlap.ristekdikti.go.id/"
+  ],
+  "otherAPI": [
+    "https://github.com/sutanlab/kampus-scraper",
+    "https://github.com/Hipo/university-domains-list"
+  ],
   "daftarPT": [
     {
       "kodePT": 1033,
