@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: TEP.GITHUB MAINTAINER
+    url: mailto:rengga.prakoso.2001216@students.um.ac.id
+    about: Contact the Team Maintainer
+  - name: GitHub Security Bug Bounty
+    url: mailto:rengga.prakoso.2001216@students.um.ac.id
+    about: Please report security vulnerabilities here.
