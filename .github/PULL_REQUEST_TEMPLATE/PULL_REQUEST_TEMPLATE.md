@@ -26,6 +26,7 @@
 - [ ] Validator & Test Unit (update the JSON schema balidator)
 - [ ] Builds & CI (changes that involved in github-actions or serverless deployments)
 - [ ] Functions (changes that effect behavior of the serverless functions)
+- [ ] Documentation (changes into documentation)
 
 ## Checklist:
 <!--- Go over all the following points, and put an `x` in all the boxes that apply. -->
