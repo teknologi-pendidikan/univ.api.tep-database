@@ -30,11 +30,26 @@
       "tipe": "UNIVERSITAS",
       "domain": "ub.ac.id",
       "situsWeb": "https://ub.ac.id",
+      "situsWebSPMB": "https://admisi.ub.ac.id",
       "email": "rektorat@ub.ac.id",
       "provinsi": "JAWA TIMUR",
       "kota": "KOTA MALANG",
       "Alamat": "JALAN VETERAN",
       "KodePos": 65145
+    },
+    {
+      "kodePT": 5023,
+      "nama": "POLITEKNIK NEGERI MALANG",
+      "statusPT": "AKTIF",
+      "tipe": "POLITEKNIK",
+      "domain": "polinema.ac.id",
+      "situsWeb": "https://polinema.ac.id",
+      "situsWebSPMB": "https://spmb.polinema.ac.id",
+      "email": "cs@polinema.ac.id",
+      "provinsi": "JAWA TIMUR",
+      "kota": "KOTA MALANG",
+      "Alamat": "Jalan Soekarno Hatta No 9",
+      "KodePos": 65141
     }
   ]
 }
